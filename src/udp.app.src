@@ -1,0 +1,13 @@
+{application, udp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+				  sasl
+                 ]},
+  {mod, { udp_app, []}},
+  {env, []}
+ ]}.
